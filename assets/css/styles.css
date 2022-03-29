@@ -5,6 +5,9 @@
 }
 
 body {
+    
+background-image: url(https://images.squarespace-cdn.com/content/v1/5e142229c73726304407e983/1602457935390-4SOV5PS1YJOQ6AX11LSH/hannah_quinlivan_2020_shroud_aluminium_and_acrylic_on_water_760_x_180_x_30_cm_installed_2.jpg?format=2500w)
+    
     font-size: 16px;
     font-family: sans-serif
     background-color: antiquewhite;
@@ -12,14 +15,17 @@ body {
 
 
 .wrapper {
+    
+      background-image: url(assets/images/hannah_quinlivan_2020_shroud_aluminium_and_acrylic_on_water_760_x_180_x_30_cm_installed_2.jpg)
+          
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: minmax(100px, auto);
-    grid-column-gap: 10rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(px, auto);
+    grid-column-gap: 1rem;
     grid-template-areas: 
-        "h h h h h h h h h h h h"
-        ". . . m m m m m m . . ."
-        "f f f f f f f f f f f f"
+        "n h h h h h"
+        "n m m m m m"
+        "n f f f f f"
     
 }
 
@@ -27,6 +33,12 @@ body {
     grid-area: h;
     background: #ccc;
 }
+
+
+.nav {
+    grid-area: n;
+}
+
 
 .main {
     grid-area: m;
@@ -48,7 +60,7 @@ h1{
 }
 
 h2{
-    font-size: 4em; 
+    font-size: 2em; 
 }
     
 
@@ -60,7 +72,8 @@ a:hover {
 
 
 section{
-    background-color: aquamarine
+  
+    background-color: rgba(255, 0, 0, 0.6);
 }
 
 
@@ -78,16 +91,11 @@ width: 150px}
 }
 
 .second {
-    background: grey;
+    background-image: url(hannah_quinlivan_2020_shroud_aluminium_and_acrylic_on_water_760_x_180_x_30_cm_installed_2.jpg)
+    background: 
 }
 
-.second-para {
-    font-size: 300%;
-}
 
-.second p {
-    color: aqua;
-}
 
 
 
